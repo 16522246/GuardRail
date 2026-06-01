@@ -36,8 +36,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/zhangzhiwei610/guardrail"
-Repository = "https://github.com/zhangzhiwei610/guardrail"
+Homepage = "https://gitee.com/zhangzhiwei610/GuardRail"
+Repository = "https://gitee.com/zhangzhiwei610/GuardRail"
 
 [project.scripts]
 guardrail = "guardrail.cli:main"
