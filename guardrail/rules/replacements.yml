@@ -1,0 +1,18 @@
+# GuardRail Replacement Mappings
+# Maps categories/pattern names to replacement text.
+# The "default" key is used when no specific mapping exists.
+
+default: "[REDACTED]"
+
+# Trigger word categories
+political_sensitive: "[POLITICALLY SENSITIVE CONTENT REMOVED]"
+illegal_content: "[ILLEGAL CONTENT REFERENCE REMOVED]"
+personal_info: "[PERSONAL INFORMATION REDACTED]"
+hacker_tools: "[HACKING TOOL REFERENCE REMOVED]"
+
+# Pattern replacements (overrides descriptions in patterns.yml)
+ip_address: "[REDACTED IP ADDRESS]"
+email: "[REDACTED EMAIL ADDRESS]"
+phone_number: "[REDACTED PHONE NUMBER]"
+credit_card: "[REDACTED CREDIT CARD NUMBER]"
+ssn: "[REDACTED SOCIAL SECURITY NUMBER]"
